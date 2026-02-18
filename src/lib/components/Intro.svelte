@@ -2,51 +2,36 @@
 	<div class="container mx-auto px-6 md:px-12">
 		<div class="max-w-4xl mb-20">
 			<h2 class="text-4xl md:text-5xl lg:text-6xl font-serif leading-tight tracking-tight">
-				<span class="text-black">Harvey is AI designed for legal and professional services.</span>
-				<span class="text-gray-400">Advance your expertise on a secure platform that lets you focus on high-value work.</span>
+				<span class="text-black">DiligenceSquared is AI-powered market research for private equity.</span>
+				<span class="text-gray-400">Deliver investor-grade insights in days via AI-moderated expert interviews and automated synthesis.</span>
 			</h2>
 		</div>
 
 		<div class="relative w-full aspect-[16/10] bg-gray-100 rounded-lg overflow-hidden shadow-2xl border border-gray-200">
-			<!-- Mock UI -->
-			<div class="absolute inset-0 flex flex-col bg-white">
-				<!-- Toolbar -->
-				<div class="h-12 border-b border-gray-200 flex items-center px-4 gap-4 bg-gray-50">
-					<div class="w-3 h-3 rounded-full bg-red-400"></div>
-					<div class="w-3 h-3 rounded-full bg-yellow-400"></div>
-					<div class="w-3 h-3 rounded-full bg-green-400"></div>
-					<div class="flex-1"></div>
-					<div class="w-32 h-2 bg-gray-200 rounded"></div>
-				</div>
-				<!-- Content -->
-				<div class="flex-1 flex">
-					<!-- Sidebar -->
-					<div class="w-64 border-r border-gray-200 p-4 hidden md:block bg-gray-50">
-						<div class="w-3/4 h-3 bg-gray-200 rounded mb-4"></div>
-						<div class="w-1/2 h-3 bg-gray-200 rounded mb-8"></div>
-						<div class="space-y-3">
-							<div class="w-full h-2 bg-gray-100 rounded"></div>
-							<div class="w-full h-2 bg-gray-100 rounded"></div>
-							<div class="w-full h-2 bg-gray-100 rounded"></div>
-							<div class="w-full h-2 bg-gray-100 rounded"></div>
+			<img 
+				src="/generated/image-a-close-up-of-a-professional-analysts-ha-1771432389920-2.webp" 
+				alt="DiligenceSquared Platform" 
+				class="w-full h-full object-cover"
+			/>
+			<!-- Overlay for a "UI" feel -->
+			<div class="absolute inset-0 bg-black/10 flex items-center justify-center">
+				<div class="bg-white/90 backdrop-blur-md p-8 rounded-lg shadow-xl max-w-lg border border-white/20">
+					<div class="flex items-center gap-4 mb-6">
+						<div class="w-12 h-12 rounded-full bg-primary-600 flex items-center justify-center text-white">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+						</div>
+						<div>
+							<div class="font-bold text-gray-900">AI-Moderated Interview</div>
+							<div class="text-xs text-gray-500">In progress...</div>
 						</div>
 					</div>
-					<!-- Main Area -->
-					<div class="flex-1 p-8 md:p-12 bg-white">
-						<div class="max-w-3xl mx-auto space-y-6">
-							<div class="w-1/3 h-4 bg-gray-800 rounded mb-8"></div>
-							<div class="w-full h-2 bg-gray-200 rounded"></div>
-							<div class="w-full h-2 bg-gray-200 rounded"></div>
-							<div class="w-3/4 h-2 bg-gray-200 rounded"></div>
-							<div class="w-full h-2 bg-gray-200 rounded"></div>
-							<div class="w-full h-2 bg-gray-200 rounded"></div>
-							<div class="w-5/6 h-2 bg-gray-200 rounded"></div>
-							
-							<div class="p-6 bg-blue-50 border border-blue-100 rounded-lg mt-8">
-								<div class="w-1/4 h-3 bg-blue-200 rounded mb-3"></div>
-								<div class="w-full h-2 bg-blue-100 rounded mb-2"></div>
-								<div class="w-3/4 h-2 bg-blue-100 rounded"></div>
-							</div>
+					<div class="space-y-4">
+						<div class="h-2 bg-gray-200 rounded w-full"></div>
+						<div class="h-2 bg-gray-200 rounded w-5/6"></div>
+						<div class="h-2 bg-gray-200 rounded w-4/6"></div>
+						<div class="pt-4 flex gap-2">
+							<div class="px-3 py-1 bg-primary-50 text-primary-700 text-[10px] font-bold uppercase tracking-wider rounded">Extracting Insights</div>
+							<div class="px-3 py-1 bg-gray-100 text-gray-600 text-[10px] font-bold uppercase tracking-wider rounded">Synthesizing</div>
 						</div>
 					</div>
 				</div>
